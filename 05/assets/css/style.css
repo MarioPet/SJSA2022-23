@@ -1,0 +1,57 @@
+body {
+    /* background-color: blue; */
+    /* background-color: rgb(50, 12, 198); */
+    /* background-color: rgba(50, 12, 198, 0.7); */
+    /* background-color: #3b5998; */
+    /* background-image: url("../images/double-bubble-dark.png"); */
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-y;
+    background-position: center;
+    background-size: 200px; */
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+}
+
+#language {
+    font-size: 80px;
+    color: green;
+}
+
+.some-text {
+    color: blue;
+}
+
+#text {
+    color: yellow;
+}
+
+/* vezba */
+
+.first-heading {
+    font-size: 20px;
+    color: red;
+    background-color: green;
+}
+.second-heading {
+    font-size: 30px;
+    color: green;
+    background-color: aquamarine;
+}
+.third-heading {
+    font-size: 40px;
+    color: blue;
+    background-image: url("../images/bush.png");
+}
+.fourth-heading {
+    font-size: 50px;
+    color: cyan;
+    background-image: url("../images/double-bubble-dark.png");
+}
+.fifth-heading {
+    font-size: 60px;
+    color: magenta;
+    background-image: url("../images/double-bubble.png");
+}
