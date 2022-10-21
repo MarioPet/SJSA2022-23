@@ -1,0 +1,114 @@
+body {
+    /* margin: 100px; */
+    /* margin-top: 100px; */
+    /* margin: 100px 0px 25px 90px; */
+    /* margin: 100px 0px; */
+    margin: 0px;
+    font-family: sans-serif;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    /* display: inline-block;    */
+    float: left;
+    margin: 0px 50px 0px 0px;
+    padding: 20px;
+}
+
+.box-2 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    /* display: inline-block;    */
+    float: left;
+}
+
+.link {
+    margin-left: 50px;
+    background-color: red;
+    padding: 15px 25px;
+    display: inline-block;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.box-3 {
+    width: 600px;
+    height: 600px;
+    background-color: brown;
+}
+
+.box-inside {
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
+    margin: 0px auto;
+}
+
+
+/* Flags */
+
+.flag {
+    width: 300px;
+    height: 180px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.red {
+    background-color: red;
+}
+
+.white {
+    background-color: white;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.left {
+    float: left;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.green {
+    background-color: green;
+}
+
+.black {
+    background-color: black;
+}
+
+.three-way-width {
+    width: calc(100% / 3);
+    height: 100%;
+}
+
+.three-way-height {
+    width: 100%;
+    height: calc(100% / 3);
+}
+
+.flag-left {
+    width: 40%;
+    height: 100%;
+}
+
+.flag-right {
+    width: 60%;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.flag-right-box {
+    height: 50%;
+}
