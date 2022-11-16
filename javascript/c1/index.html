@@ -1,0 +1,112 @@
+<html>
+    <head>
+        <title>Intro to Javascript</title>
+
+        <script>
+            // Data type: number
+            // Integer
+            console.log(150);
+            // Float || Floating point
+            console.log(150.5);
+
+            // Add
+            console.log(100 + 50);
+            // Multiply
+            console.log(5 * 5);
+            // Divide
+            console.log(10 / 2);
+            // Difference
+            console.log(20 - 20);
+
+            // Printing out the data type
+            console.log(typeof 1230);
+
+            // Variable declaration - the right way
+            // var firstName;
+            // var firstname;
+            // var first_name;
+            // var _first_name;
+            // var FirstName;
+            
+            // Variable declaration - the wrong way
+            // var 1stname
+            // var -firstName
+            // var first-name
+
+            var a;
+            a = 20;
+
+            var b = 10;
+
+            console.log(a + b);
+            // alert(a);
+
+
+            // Strings
+            console.log("Hello World in \ndouble quotes");
+            console.log('Hello World in single quotes');
+            console.log(typeof "Hello World");
+
+            console.log("One string " + "joined with another");
+
+            var firstName = "Mario";
+            var lastName = "Petkovski";
+
+            console.log(firstName + " " + lastName);
+
+            // Why pay a fortune teller when you can just program your fortune yourself?
+
+            // Store the following into variables: number of children, partner's name, geographic location, job title.
+            // Output your fortune to the screen like so: "You will be a X in Y, and married to Z with N kids."
+
+            var num_of_children = 15;
+            var partner_name = "Gal Gadot";
+            var _location = "Hollywood";
+            var job_title = "Pensioner";
+
+            console.log("You will be a " + job_title + " in " + _location + ", and married to " + partner_name + " with " + num_of_children + " kids.");
+
+            // Store your birth year in a variable.
+            // Store a future year in a variable.
+            // Calculate your 2 possible ages for that year based on the stored values.
+            // For example, if you were born in 1988, then in 2026 you'll be 38 in tye year 2026.
+            // Output them to the screen like so: "I will NN in the year YYYY", substituting the values.
+
+            var birth_year = 1993;
+            var future_year = 2076;
+
+            console.log("I will " + (future_year - birth_year) + " in the year " + future_year);
+
+            console.log("The best movie of the 90s is 'Pulp Fiction'");
+            console.log("The best movie of the 90s is \"Pulp Fiction\"");
+
+            // var number_one = prompt("Enter a number");
+            // var number_two = prompt("Enter another number");
+
+            // console.log(parseInt(number_one) + parseInt(number_two));
+            // // "5" + "5" = "55"
+            // console.log(number_one + number_two);
+            // 5 + 5 = 10
+
+
+            // Have a prompt ask you three questions:
+            // 1. What is your first name
+            // 2. What is your last name
+            // 3. What is the module that you study in Semos
+            
+            // The output is: "My name is FIRST NAME LAST NAME, and I study MODULE NAME in the Semos Academy."
+
+            var prompt_first_name = prompt("Enter your first name");
+            var prompt_last_name = prompt("Enter your last name");
+            var prompt_module_name = prompt("Enter the module's name");
+
+            console.log("My name is " + prompt_first_name + " " + prompt_last_name +", and I study " + prompt_module_name + " in the Semos Academy.");
+
+            document.write("My name is " + prompt_first_name + " " + prompt_last_name +", and I study " + prompt_module_name + " in the Semos Academy.");
+        </script>
+    </head>
+
+    <body>
+        
+    </body>
+</html>
